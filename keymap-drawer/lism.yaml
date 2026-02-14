@@ -123,8 +123,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - LANGUAGE 2
+  - LANG1
   - {t: ▽, type: trans}
-  - LANG ZENKAKUHANKAKU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

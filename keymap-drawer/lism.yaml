@@ -44,7 +44,7 @@ layers:
   - F10
   - {t: F12, h: Device Layer}
   Mouse Layer:
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

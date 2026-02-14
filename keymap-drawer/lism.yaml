@@ -44,7 +44,7 @@ layers:
   - \
   - RIGHT ALT
   Mouse Layer:
-  - '&mkp MB3'
+  - ESC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

@@ -94,54 +94,54 @@ layers:
   - '='
   - F1
   - F2
-  - F7
-  - F10
-  - RSHIFT
+  - F3
+  - F4
+  - F5
   - '*'
   - {t: '4', h: LALT}
   - {t: '5', h: LSHIFT}
   - {t: '6', h: LGUI}
   - {t: '-', h: LCTRL}
-  - '&mkp MB1'
-  - ←
-  - ↑
-  - →
-  - RGUI
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
   - /
   - '1'
   - '2'
   - '3'
   - +
-  - '&mkp MB2'
-  - ''
-  - ↓
-  - ''
-  - RALT
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - .
   - '0'
   - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
+  - {type: held}
+  - LANGUAGE 2
+  - {t: ▽, type: trans}
+  - LANG ZENKAKUHANKAKU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LANG1
   - {t: ▽, type: trans}
-  - Sft+Ctl+TAB
-  - Ctl+TAB
-  - F12
+  - {t: ▽, type: trans}
   Mark Layer:
-  - Sft+Gui+4
-  - F4
+  - ''
+  - ''
   - (
   - )
   - ''
   - '~'
-  - '!'
+  - '='
   - '@'
   - '#'
   - $
-  - '&emoji'
-  - F5
+  - AT
+  - ''
   - '['
   - ']'
   - ''
@@ -149,9 +149,9 @@ layers:
   - _
   - ''''
   - '"'
-  - \
-  - KP NUMLOCK
-  - F11
+  - '*'
+  - {t: ▽, type: trans}
+  - ''
   - '{'
   - '}'
   - ''
@@ -159,19 +159,19 @@ layers:
   - '%'
   - ^
   - '&'
-  - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
   - {t: ▽, type: trans}
-  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - ENTER
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Device Layer:
   - ''
   - ''

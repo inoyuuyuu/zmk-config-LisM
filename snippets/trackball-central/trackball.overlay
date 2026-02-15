@@ -13,19 +13,17 @@
 // ペリフェラル（split経由）のリスナーを有効化
 &peripheral_listener {
     status = "okay";
+    /* 左（peripheral）トラボを常にスクロールにする */
+    input-processors =
+        <&zip_xy_to_scroll_mapper>,
+        <&zip_scroll_scaler 1 16>;
 };
 
-// セントラルのリスナーを有効化し、deviceを紐付け
+// セントラルのリスナーを有効化し、deviceを紐付け（右はカーソルのまま）
 &central_listener {
     status = "okay";
     device = <&trackball_central>;
-    input-processors = 
+    input-processors =
         <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
-
-    scroller {
-        layers = <2>;
-        input-processors = 
-            <&zip_xy_to_scroll_mapper>,
-            <&zip_scroll_scaler 1 16>;
-    };
+    /* scroller は付けない（＝スクロール化しない） */
 };
